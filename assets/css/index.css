@@ -27,15 +27,23 @@ h1,h2,h3{
     color: var(--main-color);
 }
 
+.navbar{
+    min-height: 7rem;
+    background-color: var(--main-color);
+}
+.navbar .logo{
+    width: 50px;
+}
+/* 
 .sub-heading{
     color: var(--heighlight-color);
-}
+} */
 
 /* placeholders to change or delete */
-.container, .row{
+/* .container, .row{
     border: 1px solid black;
 }
 .col-12{
     background-color: #9d9d9d;
     border: 1px solid #ffffff;
-}
+} */
