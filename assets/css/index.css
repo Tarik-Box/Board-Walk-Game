@@ -7,7 +7,7 @@
     --secondary-font: "Macondo",cursive;
     /* Colors */
     --main-color: #00142f;  /* Some kind Blue */
-    --secondary-color: #26002f ;
+    --secondary-color: #014592 ;
     --heighlight-color: #47006b;
     --light-heighlight-color:#bc00d5;
 
@@ -25,6 +25,10 @@ h1,h2,h3{
     /* Headings Font  */
     font-family: var(--secondary-font);
     color: var(--main-color);
+    text-transform: uppercase;
+}
+.sub-heading-colors{
+    color: var(--secondary-color);
 }
 
 .navbar{
@@ -34,6 +38,14 @@ h1,h2,h3{
 .navbar .logo{
     width: 50px;
 }
+#header .led{
+    font-family: var(--secondary-font);
+}
+
+.section{
+    margin-top: 4rem;
+}
+
 /* 
 .sub-heading{
     color: var(--heighlight-color);
