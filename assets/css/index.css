@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
 
 /* Css Vaiables */
- :root{
+:root{
     /* Fonts */
     --primary-font: "Inter",sans-serif ;
     --secondary-font: "Macondo",cursive;
     /* Colors */
     --main-color: #00142f;  /* Some kind Blue */
     --secondary-color: #014592 ;
-    --heighlight-color: #47006b;
+    --heighlight-color: #774000;
     --light-heighlight-color:#bc00d5;
 
- }
+}
 
 
 /* Globals Settings */
@@ -25,10 +25,12 @@ h1,h2,h3{
     /* Headings Font  */
     font-family: var(--secondary-font);
     color: var(--main-color);
-    text-transform: uppercase;
 }
 .sub-heading-colors{
     color: var(--secondary-color);
+}
+h1,h2{
+    text-transform: uppercase;
 }
 
 .navbar{
@@ -46,6 +48,18 @@ h1,h2,h3{
     margin-top: 4rem;
 }
 
+/* service */
+
+#service .card{
+    margin-bottom: 1.5rem;
+}
+
+#service .card-footer{
+    color: var(--heighlight-color);
+    background-color: transparent;
+    font-weight: bold;
+} 
+
 /* 
 .sub-heading{
     color: var(--heighlight-color);
@@ -59,3 +73,23 @@ h1,h2,h3{
     background-color: #9d9d9d;
     border: 1px solid #ffffff;
 } */
+
+
+
+/* Meadis : Devices like Tablets , 768px and up */
+@media screen and (min-width: 768px){
+    #service .card-body{
+    min-height: 191px;
+    }
+
+}
+@media screen and (min-width:992px) {
+    #service .card-body{
+    min-height: auto;
+    }
+}
+@media screen and (min-width:1024px) {
+    #service .card-body{
+    min-height: 266px;
+    }
+}
