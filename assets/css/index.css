@@ -39,7 +39,7 @@ h1,h2{
     background-color: var(--main-color);
 }
 .navbar .logo{
-    width: 50px;
+    width: 40px;
 }
 #header .led{
     font-family: var(--secondary-font);
@@ -51,7 +51,7 @@ h1,h2{
 
 /* service */
 
-#service .card{
+#service .card , #new-games .card , #favourites .card{
     margin-bottom: 1.5rem;
 }
 
@@ -60,6 +60,11 @@ h1,h2{
     background-color: transparent;
     font-weight: bold;
 } 
+
+#new-games span , #favourites span{
+    font-weight: bold;
+    font-style: oblique;
+}
 
 /* 
 .sub-heading{
@@ -92,5 +97,11 @@ h1,h2{
 @media screen and (min-width:1024px) {
     #service .card-body{
     min-height: 266px;
+    }
+    #new-games .card-body{
+        min-height: 345px;
+    }
+    #favourites .card-body{
+        min-height: 395px;
     }
 }
