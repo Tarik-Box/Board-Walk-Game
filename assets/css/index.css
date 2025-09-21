@@ -30,6 +30,7 @@ h1,h2,h3{
     color: var(--secondary-color);
 }
 h1,h2{
+    margin-bottom: 2rem;
     text-transform: uppercase;
 }
 
