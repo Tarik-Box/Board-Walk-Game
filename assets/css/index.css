@@ -66,6 +66,34 @@ h1,h2{
     font-style: oblique;
 }
 
+/* footer styling */
+#contact {
+    background-color: var(--main-color);
+    color: white;
+    padding-bottom: 3rem;
+}
+#contact h2{
+    color: white;
+}
+#contact .sub-heading-colors{
+    color: var(--heighlight-color);
+}
+#contact i{
+    color: var(--secondary-color);
+    font-size: 1.3rem;
+    margin-right: 15px;
+
+}
+#contact .social-links i{
+    color: var(--heighlight-color);
+    font-size: 1.8rem;
+}
+#contact .social-links i:hover{
+    color: var(--secondary-color);
+    transition: color 0.5s ease-in-out;
+}
+
+
 /* 
 .sub-heading{
     color: var(--heighlight-color);
