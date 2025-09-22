@@ -34,6 +34,34 @@ h1,h2{
     text-transform: uppercase;
 }
 
+.section{
+    margin-top: 4rem;
+}
+
+/* buttons */
+.custom-button-filled{
+    background-color: var(--heighlight-color);
+    border: none;
+    color: white;
+}
+.custom-button-filled:hover{
+    border: none;
+    background-color: white;
+    color: var(--heighlight-color);
+    transition: all 0.7s ease-in-out;
+}
+.custom-button{
+    border: 2px solid var(--heighlight-color);
+    color: var(--heighlight-color);
+    padding: 7px 25px;
+}
+.custom-button:hover{
+    background-color: var(--heighlight-color);
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+/* navbar */
 .navbar{
     min-height: 7rem;
     background-color: var(--main-color);
@@ -45,9 +73,7 @@ h1,h2{
     font-family: var(--secondary-font);
 }
 
-.section{
-    margin-top: 4rem;
-}
+
 
 /* service */
 
