@@ -36,7 +36,7 @@ h1,h2{
 }
 
 .section{
-    margin-top: 4rem;
+    padding-top: 6rem;
 }
 
 /* buttons */
@@ -71,9 +71,8 @@ h1,h2{
 .navbar .logo{
     width: 40px;
 }
-/* #header {
-    margin-top: 120px;
-} */
+
+
 #header .led{
     font-family: var(--secondary-font);
 }
@@ -96,6 +95,7 @@ h1,h2{
     font-weight: bold;
     font-style: oblique;
 }
+
 
 /* Events */
 
@@ -140,20 +140,6 @@ h1,h2{
 #contact .table-dark *{
     background-color: transparent;
 }
-
-/* 
-.sub-heading{
-    color: var(--heighlight-color);
-} */
-
-/* placeholders to change or delete */
-/* .container, .row{
-    border: 1px solid black;
-}
-.col-12{
-    background-color: #9d9d9d;
-    border: 1px solid #ffffff;
-} */
 
 
 
