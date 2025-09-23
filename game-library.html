@@ -163,7 +163,7 @@
                     </div>
                 </div>
             </section>
-
+            
             <!-- Favourits Games Section -->
             <section id="favourites" class="container section">
                 <div class="row">
@@ -220,6 +220,67 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </section>
+        
+            <!-- Reserve a Game -->
+            <section id="reserve" class="container section">
+                <div class="row justify-content-center">
+                    <!-- events Heading -->
+                    <div class="col-12 text-center m-3">
+                        <h2 class="display-6">Reserve a Game</h2>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6 col-xl-6">                        
+                        <p class="text-start">Reserve a board game for your next visit to Boardwalk Games.
+                             Pick your challenge, and let the adventure begin!
+                              Fill out your details and preferred game below,
+                             and we'll have it set aside for you when you arrive.
+                        </p>
+                    </div>
+
+                    <!-- Form -->
+                    <form class="mb-4" action="success.html" method="get">
+                        <div class="row justify-content-center ms-auto">
+                            <div class="col-12 col-lg-4 mb-3 ">
+                                <label for="fname" class="form-label">Full name</label>
+                                <input class="form-control" id="fname" type="text" name="fname" required>
+                            </div>
+                            <div class="col-12 col-lg-4 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" type="number" name="phone" required>
+                            </div>
+                            <div class="col-12 col-lg-4 mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input class="form-control" id="email" type="email" name="email" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="select-game" class="form-label">Select game</label>
+                                <select id="select-game" class="form-select" name="select-game">
+                                    <option id="booking-selected-option" value="" selected>Select Game</option>
+                                    <option value="g-l">Galaxy Pioneers</option>
+                                    <option value="m-y">Mystic Woods</option>
+                                    <option value="c-g">Captain's Gambit</option>
+                                    <option value="c-q">Critter Quest</option>
+                                    <option value="soc">Setters of Catan</option>
+                                    <option value="monopoly">Monopoly</option>
+                                    <option value="e-k">Exploding Kittens</option>
+                                    <option value="cluedo">Cluedo</option>
+                                </select>
+                            </div>
+                            <div id="date" class="col-12 col-lg-6 mb-3">
+                                <label for="start" class="form-label">Requested date:</label>
+                                <input
+                                class="form-control"
+                                type="date"
+                                id="start"
+                                name="trip-start"
+                                value="yyyy-mm-dd"
+                                min="2025-10-01"
+                                max="2030-12-31" />
+                            </div>
+                        </div>
+                        <a class="btn custom-button mb-3 text-center float-end" href="booking.html">Submit</a>
+                    </form>
                 </div>
             </section>
 
