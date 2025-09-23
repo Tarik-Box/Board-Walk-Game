@@ -19,6 +19,7 @@ body{
     
     /* Main Font */
     font-family: var(--primary-font);
+    padding-top: 125px;
 }
 
 h1,h2,h3{
@@ -65,10 +66,14 @@ h1,h2{
 .navbar{
     min-height: 7rem;
     background-color: var(--main-color);
+    
 }
 .navbar .logo{
     width: 40px;
 }
+/* #header {
+    margin-top: 120px;
+} */
 #header .led{
     font-family: var(--secondary-font);
 }
