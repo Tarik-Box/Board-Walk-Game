@@ -92,6 +92,20 @@ h1,h2{
     font-style: oblique;
 }
 
+/* Events */
+
+#offer{
+    background-color: var(--main-color);
+    color: white;
+    text-align: center;
+    padding: 5px ;
+    font-weight: bold;
+}
+#events .table-dark *{
+    background-color: transparent;
+    color: var(--main-color);
+}
+
 /* footer styling */
 #contact {
     background-color: var(--main-color);
