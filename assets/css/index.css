@@ -1,3 +1,5 @@
+/* Google font */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
 
 /* Css Vaiables */
@@ -49,6 +51,8 @@ h1,h2{
     border: none;
     background-color: white;
     color: var(--heighlight-color);
+    -webkit-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
     transition: all 0.7s ease-in-out;
 }
 .custom-button{
@@ -59,6 +63,8 @@ h1,h2{
 .custom-button:hover{
     background-color: var(--heighlight-color);
     color: white;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
 
@@ -135,12 +141,13 @@ h1,h2{
 }
 #contact .social-links i:hover{
     color: var(--secondary-color);
+    -webkit-transition: color 0.5s ease-in-out;
+    -o-transition: color 0.5s ease-in-out;
     transition: color 0.5s ease-in-out;
 }
 #contact .table-dark *{
     background-color: transparent;
 }
-
 
 
 /* Meadis : Devices like Tablets , 768px and up */
